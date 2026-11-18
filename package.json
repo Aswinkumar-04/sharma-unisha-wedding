@@ -1,0 +1,14 @@
+{
+  "name": "sharma-unisha-wedding",
+  "version": "1.0.0",
+  "description": "Wedding Invitation website for Sharma & Unisha",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": ["wedding", "invitation", "save-the-date"],
+  "author": "",
+  "license": "ISC"
+}
+
