@@ -650,6 +650,34 @@ html, body {
   text-align: center;
 }
 
+#closing .site-credit {
+  margin-top: 22px !important;
+  padding-top: 14px;
+  border-top: 1px solid rgba(181, 138, 58, 0.25);
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  opacity: 0.85;
+  text-align: center;
+}
+
+#closing .credit-link {
+  color: var(--deep-green);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s, opacity 0.2s;
+  cursor: pointer;
+}
+
+#closing .credit-link:hover,
+#closing .credit-link:active {
+  color: var(--gold);
+  opacity: 1;
+}
+
 /* Intro Video Cover Alignment */
 #opening {
   position: fixed;
