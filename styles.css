@@ -135,7 +135,7 @@ html, body {
 
 .hero-mark {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 6px;
   font-size: clamp(11px, 2.6vw, 13px);
   letter-spacing: 0.28em;
   color: var(--gold-deep);
@@ -797,7 +797,7 @@ html, body {
 
 .hero-logo-link {
   display: inline-block;
-  margin: 10px auto 4px;
+  margin: 0 auto 12px;
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.25s ease, opacity 0.25s ease;
